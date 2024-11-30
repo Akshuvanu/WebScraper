@@ -13,8 +13,6 @@ The scraper fetches headlines from each of these websites and stores them in a d
 - **Multi-Threading**: Uses a fixed thread pool (`ExecutorService`) to scrape multiple websites concurrently.
 - **Spring Boot Integration**: The scraper is integrated into a Spring Boot application as a command line runner.
 - **Headlines Repository**: The scraped headlines are saved in a repository, and you can easily modify the repository to store data in your preferred database (e.g., MySQL, H2, etc.).
-
-- 
 - 
 ### Scraper Workflow
 The scraper follows these steps:
