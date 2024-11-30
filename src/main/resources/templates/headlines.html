@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Scraped Headlines</title>
+</head>
+<body>
+<h1>Scraped Headlines</h1>
+<ul>
+    <li th:each="headline : ${headlines}">
+        <strong th:text="${headline.source}">Source</strong>:
+        <span th:text="${headline.headline}">Headline</span>
+    </li>
+</ul>
+</body>
+</html>
